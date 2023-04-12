@@ -50,7 +50,7 @@ const About = () => {
                     'I use Agile technologies, in confunction with SDLC best practices around process automation using tools such as Atlassian products, to deliver software in CI/CD pipelines.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphFour || 'If you need help with any of the above, then give be a holler.'}
+                  {paragraphFour || 'If you need help with any of the above, then give me a holler.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
