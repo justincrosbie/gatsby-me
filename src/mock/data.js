@@ -39,7 +39,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'Stuff I do at work',
-    info: 'I won\t go into detail here, for fear of violating DRY principles ;) Check out my resume for details!',
+    info: 'I won\'t go into detail here, for fear of violating DRY principles ;) Check out my resume for details!',
     info2: 'But I have developed many full-stack web apps, mostly in Angular with Java or Node REST backends\n\nThese days, while I am still heavily involved in development, most of my responsibilities are centred around ensuring the team and the product are successful, and the customers are happy :)',
     info3: 'Mostly this is around ensuring the team are using best Agile practices (this is an art in itself, and not easy to get right!), Story writing (also another art - if you get this right, that is half the battle, if you get it - meh, almost right - you are plunged into the abyss of misaligned objectives and perpetual scope creep!!)',
     info4: 'Oh and tests. You didn\'t write enough tests!',
