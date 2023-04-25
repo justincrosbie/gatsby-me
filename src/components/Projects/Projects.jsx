@@ -48,6 +48,9 @@ const Projects = () => {
                             'Coming soon....'}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
+                        <p className="mb-4">{info3 || ''}</p>
+                        <p className="mb-4">{info4 || ''}</p>
+                        <p className="mb-4">{info5 || ''}</p>
                       </div>
                       <a
                         target="_blank"
