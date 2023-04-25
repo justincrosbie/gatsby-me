@@ -30,27 +30,35 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'This site!',
+    info: 'This is my personal website, its written in Gatsby and React, using a standard template I found on the interwebs. ',
+    info2: 'Can\'t wait to hook it up to Chat-GPT for some interesting experiments. Hmmm.....',
+    url: 'https://github.com/justincrosbie/gatsby-me'
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'Stuff I do at work',
+    info: 'I won\t go into detail here, for fear if violating DRY principles ;) But I have developed many full-stack web apps, mostly in Angular with Java or Node REST backends',
+    info2: 'Check out my resume for details!',
     url: ''
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: ''
+    title: 'Secure Venue',
+    info: 'This is a mobile app platform i developed for the clubs industry',
+    info2: 'Its developed in Xamarin with a Serverless backend hosted in AWS using Lanbda and S3. It sends push notifications using Pushwoosh',
+    url: 'https://securevenue.com.au'
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: ''
-  },
+    title: 'Many hobby projects',
+    info: 'I\'ve developed projects in Angular, React, running on Serverless Lambdas in AWS',
+    info2: 'Mostly just for fun and to geeting the learns',
+    url: 'https://github.com/justincrosbie'
+  }
 ];
 
 // CONTACT DATA
