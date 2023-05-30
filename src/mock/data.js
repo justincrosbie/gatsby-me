@@ -31,8 +31,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'This site!',
-    info: 'This is my personal website, its written in Gatsby and React, using a standard template I found on the interwebs. ',
-    info2: 'Who knows what I will do next with it....',
+    info: 'This is my personal website, its written in Gatsby and React, using a standard template I found on the interwebs.',
+    info2: 'Who knows what I will do next with it....maybe I will hook it up to an LLM, muh-wuhahaha!',
     url: 'https://github.com/justincrosbie/gatsby-me'
   },
   {
@@ -48,9 +48,17 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
+    title: 'Gigl',
+    info: 'Gigl is a PWA developed for the Gold Coast music industry that connects musicians, venues, and patrons',
+    info2: 'Its developed in Angular with a Firebase backend. I started working on it during COVID times, and I still maintain it in my spare time. Its a labour of love :)',
+    url: 'https://gigl.com.au'
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
     title: 'Secure Venue',
-    info: 'This is a mobile app platform i developed for the clubs industry',
-    info2: 'Its developed in Xamarin with a Serverless backend hosted in AWS using Lanbda and S3. It sends push notifications using Pushwoosh',
+    info: 'This is a mobile app platform I developed for the clubs industry to assist security.',
+    info2: 'Its developed in C# Xamarin with a Serverless backend hosted in AWS using Lanbda and S3. It sends push notifications using Pushwoosh',
     url: 'https://securevenue.com.au'
   },
   {
@@ -58,7 +66,7 @@ export const projectsData = [
     img: 'project.jpg',
     title: 'Many hobby projects',
     info: 'I still love tinkering around with all the goodies out there in my spare time :) I\'ve developed projects in Angular, React, running on Serverless Lambdas in AWS',
-    info2: 'Mostly just for fun and to getting the learns',
+    info2: 'Mostly just for fun and to getting the learns. Currently I\'m doing some Blockchain courses on Pluralsight',
     url: 'https://github.com/justincrosbie'
   }
 ];
@@ -67,7 +75,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'justincrosbie@gmail.com',
 };
 
 // FOOTER DATA
@@ -76,7 +84,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/juocrobo',
     },
     {
       id: nanoid(),
@@ -86,12 +94,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/justincrosbie',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/justincrosbie',
     },
   ],
 };
