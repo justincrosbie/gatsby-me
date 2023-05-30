@@ -51,7 +51,7 @@ export const projectsData = [
     title: 'Secure Venue',
     info: 'This is a mobile app platform I developed for the clubs industry to assist security.',
     info2: 'Its developed in C# Xamarin with a Serverless backend hosted in AWS using Lanbda and S3. It sends push notifications using Pushwoosh',
-    url: 'https://securevenue.com.au'
+    url: 'https://www.securevenue.com.au'
   },
   {
     id: nanoid(),
