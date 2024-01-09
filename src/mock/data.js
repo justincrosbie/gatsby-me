@@ -30,6 +30,19 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
+    title: 'Consultancy',
+    info: 'Currently, I\'m available for consultancy work, having recently finished up a contract with a bank, where I integrated Ping Identity and Passkey technologies into their main customer app',
+    info2: 'I can provide consultancy and development services around:',
+    info3: '  - Identity and Access Management (IAM) - specialing in Ping Identity and Keycloak',
+    info4: '  - Agile development practices',
+    info4: '  - Passkey and biometric integration',
+    info4: '  - Product management',
+    info4: '  - Full-stack development in React, Angular, Native Mobile, Node, Java',
+    url: ''
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
     title: 'Stuff I do at work',
     info: 'I won\'t go into detail here, for fear of violating DRY principles ;) Check out my resume for details!',
     info2: 'But I have developed many full-stack web apps, mostly in Angular with Java or Node REST backends.\n\nThese days, while I am still heavily involved in development, most of my responsibilities are centred around ensuring the team and the product are successful, and the customers are happy :)',
@@ -50,7 +63,7 @@ export const projectsData = [
     img: 'project.jpg',
     title: 'Secure Venue',
     info: 'This is a mobile app platform I developed for the clubs industry to assist security.',
-    info2: 'Its developed in C# Xamarin with a Serverless backend hosted in AWS using Lanbda and S3. It sends push notifications using Pushwoosh',
+    info2: 'Its developed in C# Xamarin with a Serverless backend hosted in AWS using a Lambda running a Node backend and S3. It sends push notifications using Pushwoosh',
     url: 'https://www.securevenue.com.au'
   },
   {
